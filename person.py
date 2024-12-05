@@ -1,0 +1,11 @@
+naam = input("Voer je naam in: ")
+adres = input("Voer je adres in: ")
+postcode = input("Voer je postcode in: ")
+woonplaats = input("Voer je woonplaats in: ")
+
+print("\n" + "-" * 52)
+print(f"|  Naam      : {naam:<38}|")
+print(f"|  Adres     : {adres:<38}|")
+print(f"|  Postcode  : {postcode:<38}|")
+print(f"|  Woonplaats: {woonplaats:<38}|")
+print("-" * 52)
